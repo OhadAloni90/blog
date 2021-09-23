@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+    
+</head>
+<body>
+    <button class="hamburger" id="hamburger" onclick="handleNav()"></button>
+    <nav class="main-nav" id="main-nav">
+        <a href="#" onclick="handleNav()">Home</a>
+        <a href="#" onclick="handleNav()">About</a>
+        <a href="#" onclick="handleNav()">Creator</a>
+        <a href="#" onclick="handleNav()">Support</a>
+    </nav>
+    <main class="home">
+        <section class="home-info">
+            <header class="home-header">
+                <h1 class="home-title">Youtube Creators</h1>
+                <span class="home-spacer"></span>
+                <p class="home-subtext">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illum soluta dignissimos alias quaerat, doloremque libero eligendi? Recusandae consequatur
+                     nostrum omnis vero, libero nulla similique tenetur, ducimus earum, 
+                     quos perferendis!
+                </p>
+            <a href="#" class="home-cta">Support a creator</a>
+            </header>
+        </section>
+        <section class="home-cards">
+            <div class="group-one">
+                <div class="home-card home-card--square">
+                    <header>
+                        <img src="./images/marques-profile.jpg" alt="Marqoue brownlee">
+                        <h3><a href="#">Marqoue brownlee</a></h3>
+                    </header>
+                </div>
+                <div class="home-card home-card--large">
+                    <header>
+                        <img src="./images/tmo-profile.jpg" alt="tech me out">
+                        <h3><a href="#">Tech me out</a></h3>
+                    </header>
+                </div>
+            </div>
+        <div class="group-two">
+            <div class="home-card home-card--large">
+                <header>
+                    <img src="./images/justin-profile.jpg" alt="Justin">
+                    <h3><a href="#">Justin Ezralik</a></h3>
+                </header>
+            </div>
+            <div class="home-card home-card--large">
+                <header>
+                    <img src="./images/peter-profile.jpg" alt="peter">
+                    <h3><a href="#">Peter Mckinnon</a></h3>
+                </header>
+            </div>
+        </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="./functions.js"></script>
+</body>
+</html>
